@@ -1,0 +1,1 @@
+New-Item -ItemType Directory -Force -Path ("C:\MyCode\" + (Get-Date -Format "yyyyMMdd_HHmm"))
